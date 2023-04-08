@@ -1,0 +1,22 @@
+header {
+  height: 70px;
+  background-color: var(--drr-color-bg-secondary);
+  color: var(--drr-color-font-primary);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.drr-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drr-navbar {
+    display: flex;
+}
+
+.drr-menu-item {
+  margin-right: 20px;
+}
