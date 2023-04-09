@@ -5,8 +5,7 @@
   --drr-color-bg-secondary: #2D28FF;
   --drr-color-bg-tertiary: #C7C7C7;
 
-  --drr-color-font-primary: #FFF;
-  
+  --drr-color-font-primary: #FFF;  
 }
 
 * {
@@ -31,4 +30,20 @@ body {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.drr-mt20 {
+  margin-top: 20px;
+}
+
+.drr-mb20 {
+  margin-bottom: 20px;
+}
+
+.drr-mr20 {
+  margin-right: 20px;
+}
+
+.drr-menu-active {
+  font-weight: 700;
 }

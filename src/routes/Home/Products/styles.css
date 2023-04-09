@@ -1,0 +1,7 @@
+.drr-category-navbar {
+    height: 60px;
+    background-color: var(--drr-color-bg-tertiary);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
