@@ -9,7 +9,7 @@ export default function Header() {
         <nav className="drr-navbar">
             <NavLink to={"/home"} className={({ isActive }) => isActive ? "drr-mr20 drr-menu-active" : "drr-mr20"}>Início</NavLink>          
             <NavLink to={"/products"} className={({ isActive }) => isActive ? "drr-mr20 drr-menu-active" : "drr-mr20"}>Produtos</NavLink>
-            <NavLink to={"/about"} className={(isActive) => isActive ? "drr-mr20 drr-menu-active" : "drr-mr20"}>Sobre nós</NavLink>          
+            <NavLink to={"/about"} className={({ isActive }) => isActive ? "drr-mr20 drr-menu-active" : "drr-mr20"}>Sobre nós</NavLink>          
         </nav>
         <div>
           <Link to={"/"}>
